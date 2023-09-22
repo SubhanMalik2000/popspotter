@@ -77,14 +77,16 @@ export default function SiteNav(props: Props) {
           </ListItem>
         </Link>
 
-        <ListItem disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              <img src="/assets/tick.png" width={30} height={30} alt="" />
-            </ListItemIcon>
-            <ListItemText primary="New Post Verify" />
-          </ListItemButton>
-        </ListItem>
+        <Link href="/PostVerification">
+          <ListItem disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <img src="/assets/tick.png" width={30} height={30} alt="" />
+              </ListItemIcon>
+              <ListItemText primary="New Post Verify" />
+            </ListItemButton>
+          </ListItem>
+        </Link>
 
         <Link href="/AllUsers">
           <ListItem disablePadding>
